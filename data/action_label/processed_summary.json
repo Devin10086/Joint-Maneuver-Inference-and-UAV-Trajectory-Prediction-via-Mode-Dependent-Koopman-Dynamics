@@ -1,0 +1,26 @@
+{
+  "mode": "controller_action",
+  "found_frames_csv": 160,
+  "used_chains": 160,
+  "out_root": "F:\\DATA\\topokoop_v4_160_action_label\\processed",
+  "split_counts": {
+    "train": 116,
+    "test": 26,
+    "val": 18
+  },
+  "scene_counts": {
+    "open_city_space__daily_cruise": 40,
+    "street_canyon__rapid_crossing": 40,
+    "open_city_space__target_recon_loiter": 40,
+    "building_near__approach_target": 20,
+    "building_near__reconnaissance": 20
+  },
+  "behavior_counts_file_level": {
+    "accelerate,cruise,decelerate,hover,turn_left": 45,
+    "accelerate,climb,cruise,decelerate,descend,hover,turn_left,turn_right": 40,
+    "accelerate,cruise,decelerate,hover,loiter": 40,
+    "accelerate,cruise,decelerate,hover": 28,
+    "accelerate,cruise,decelerate,hover,turn_right": 4,
+    "accelerate,cruise,decelerate,hover,turn_left,turn_right": 3
+  }
+}

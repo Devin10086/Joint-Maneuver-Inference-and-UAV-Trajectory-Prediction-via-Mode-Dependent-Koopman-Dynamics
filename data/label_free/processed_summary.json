@@ -1,0 +1,21 @@
+{
+  "mode": "label_free_all",
+  "found_frames_csv": 320,
+  "used_chains": 320,
+  "out_root": "F:\\DATA\\topokoop_v4_320_label_free\\processed",
+  "split_counts": {
+    "train": 231,
+    "test": 48,
+    "val": 41
+  },
+  "scene_counts": {
+    "open_city_space__daily_cruise": 80,
+    "street_canyon__rapid_crossing": 80,
+    "open_city_space__target_recon_loiter": 80,
+    "building_near__approach_target": 40,
+    "building_near__reconnaissance": 40
+  },
+  "behavior_counts_file_level": {
+    "": 320
+  }
+}

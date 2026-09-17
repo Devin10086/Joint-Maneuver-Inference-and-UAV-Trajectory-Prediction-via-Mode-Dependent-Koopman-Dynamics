@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Experiment outputs
+outputs/
+runs/
+checkpoints/
+wandb/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Large/raw datasets
+data/*
+!data/README.md
+!data/example/
+!data/example/**
+
+# AirSim / voxel maps
+*.binvox
+
+# Temporary / backup files
+*.tmp
+*.bak
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Paper voxel map included for reproducibility
+!data/map/
+!data/map/city_trajectory_roi_train_val.binvox
+
+# Paper datasets included for reproducibility
+!data/action_label/
+!data/action_label/**
+
+!data/label_free/
+!data/label_free/**
+
+# Paper voxel map
+!data/map/
+!data/map/**
